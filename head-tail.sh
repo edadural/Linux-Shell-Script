@@ -5,8 +5,6 @@ FILE=`zenity --file-selection --title="Select a File"`
 
 case $? in
 	0)
-  
-		
 		ilk_secim=$(zenity --forms --title="Satir secim" \
 			--text="Ilk satir numarasini giriniz." \
 			--separator="," \
